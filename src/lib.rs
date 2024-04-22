@@ -30,7 +30,6 @@ impl FarmPluginVirtualModule {
         module_content.clone(),
       );
     }
-    println!("resolved_ids {:?}", resolved_ids);
     Self {
       virtual_options,
       resolved_ids,
