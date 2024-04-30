@@ -23,7 +23,7 @@ export default defineConfig({
       'farm-plugin-virtual',
       {
         'virtual-module': 'export const a = 1',
-        'src/01.js': 'export const module01 = "virtual-module"',
+        'src/01.js': 'export const module01 = "virtual-module from 01.js"',
       },
     ],
   ],
